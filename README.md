@@ -1,2 +1,2 @@
 # Baidu-IFE
-百度前端技术学院
+2017 Baidu IFE notes & codes.

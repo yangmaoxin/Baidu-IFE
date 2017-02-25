@@ -1,0 +1,37 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: auto;
+}
+p {
+    margin: 3% 0;
+    padding: 0;
+}
+
+
+.container, .team, .logo, .about, .members, .personal-logo {
+  border: 1px solid #999;
+  box-sizing: border-box;
+}
+
+.container {
+position: absolute;
+  margin: 20px;
+  width: auto;
+  height: auto;
+  background-color: #eee;
+}
+
+.center {
+  float: left;
+  width: 100%;
+}
+
+.team {
+  float: left;
+  margin: 20px;
+  width: 200px;
+  height: 110px;
+  background-color: #fff;
+}
