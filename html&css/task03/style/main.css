@@ -3,24 +3,26 @@ html, body {
     padding: 0;
     width: 100%;
     height: auto;
-}
-p {
-    margin: 3% 0;
-    padding: 0;
+    font-size: 14px;
 }
 
 
-.container, .team, .logo, .about, .members, .personal-logo {
-  border: 1px solid #999;
-  box-sizing: border-box;
+.clearfix::after{
+    content: "";
+    display: block;
+    clear: both;
+    height: 0;
+    overflow: hidden;
+    visibility: hidden;
 }
 
 .container {
-position: absolute;
-  margin: 20px;
-  width: auto;
-  height: auto;
-  background-color: #eee;
+  position: relative;
+  width: 95%;
+  margin: 20px auto 0;
+  padding: 20px;
+  border: 1px solid #999999;
+  background-color: #EEEEEE;
 }
 
 .center {
@@ -30,8 +32,197 @@ position: absolute;
 
 .team {
   float: left;
-  margin: 20px;
-  width: 200px;
-  height: 110px;
+  width: 158px;
+  padding: 20px;
+  border: 1px solid #999999;
+  background-color: #FFFFFF;
+}
+.team .logo {
+  float: left;
+  padding: 22px 5px;
+  width: 68px;
+  height: 34px;
+  text-align: center;
+  font-size: 12px;
+  border: 1px solid #999999;
+  background-color: #DFDFDF;
+}
+
+.team .team-name {
+  margin: 0 0 0 100px;
+}
+
+.members {
+  float: right;
+  width: 78px;
+  padding: 20px;
+  border: 1px solid #999999;
+  background-color: #FFFFFF;
+}
+
+.members ul{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.members ul li{
+  width: 68px;
+  height: 34px;
+  text-align: center;
+  font-size: 12px;
+  padding: 22px 5px;
+  margin-bottom: 20px;
+  border: 1px solid #999999;
+  background-color: #DFDFDF;
+}
+
+.about{
+  padding: 0 20px;
+  margin-left: 220px;
+  margin-right: 140px;
+  border: 1px solid #999999;
+  background-color: #FFFFFF;
+}
+
+.about h2:nth-child(1) {
+  color: red;
+}
+
+/*第二种*/
+.h100{
+  height: 500px;
+}
+.team2 {
+  position: absolute;
+  left: 20px;
+  width: 158px;
+  padding: 20px;
+  border: 1px solid #999999;
+  background-color: #FFFFFF;
+}
+
+.team2 .logo {
+  float: left;
+  padding: 22px 5px;
+  width: 68px;
+  height: 34px;
+  text-align: center;
+  font-size: 12px;
+  border: 1px solid #999999;
+  background-color: #DFDFDF;
+}
+
+.team2 .team-name {
+  margin: 0 0 0 100px;
+}
+
+
+.members2 {
+  position: absolute;
+  right: 20px;
+  width: 78px;
+  padding: 20px;
+  border: 1px solid #999999;
+  background-color: #FFFFFF;
+}
+
+.members2 ul{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.members2 ul li{
+  width: 68px;
+  height: 34px;
+  text-align: center;
+  font-size: 12px;
+  padding: 22px 5px;
+  margin-bottom: 20px;
+  border: 1px solid #999999;
+  background-color: #DFDFDF;
+}
+
+.about2{
+  padding: 0 20px;
+  margin-left: 220px;
+  margin-right: 140px;
+  border: 1px solid #999999;
+  background-color: #FFFFFF;
+}
+
+.about2 h2:nth-of-type(2) {
+  color: red;
+}
+
+/*第三种*/
+.about3 {
+  width: 100%;
+  height: 100%;
+  float: left;
+}
+
+.about-body{
+  margin:0 210px;
+  padding: 0 20px;
+  height: 100%;
   background-color: #fff;
+  border: 1px solid #999999;
+}
+
+.about3 h2:nth-of-type(3) {
+  color: red;
+}
+
+
+.team3 {
+  margin-left: -100%;
+  float: left;
+  width: 158px;
+  padding: 20px;
+  border: 1px solid #999999;
+  background-color: #FFFFFF;
+}
+
+.team3 .logo {
+  float: left;
+  padding: 22px 5px;
+  width: 68px;
+  height: 34px;
+  text-align: center;
+  font-size: 12px;
+  border: 1px solid #999999;
+  background-color: #DFDFDF;
+}
+
+.team3 .team-name {
+  margin: 0 0 0 100px;
+}
+
+
+.members3 {
+  float: left;
+  margin-left: -120px;
+  width: 78px;
+  padding: 20px;
+  border: 1px solid #999999;
+  background-color: #FFFFFF;
+}
+
+.members3 ul{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.members3 ul li{
+  width: 68px;
+  height: 34px;
+  text-align: center;
+  font-size: 12px;
+  padding: 22px 5px;
+  margin-bottom: 20px;
+  border: 1px solid #999999;
+  background-color: #DFDFDF;
 }
