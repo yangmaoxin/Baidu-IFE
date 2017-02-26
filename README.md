@@ -13,9 +13,9 @@ http://ife.baidu.com/course/all
 
 - [x] 三栏式布局 demo:[Task03](http://ife.igeek.wang/html&css/task03/)
 
-- [ ] 定位和居中问题
+- [x] 定位和居中问题 demo:[Task04](http://ife.igeek.wang/html&css/task04/)
 
-- [ ] 零基础HTML及CSS编码（二）demo:[Task05](http://first1step.github.io/ife/task/task005/)
+- [ ] 零基础HTML及CSS编码（二）demo:[Task05](http://ife.igeek.wang/html&css/task05/)
 
 - [ ] 通过HTML及CSS模拟报纸排版
 
