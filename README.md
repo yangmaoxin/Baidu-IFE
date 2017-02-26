@@ -15,11 +15,12 @@ http://ife.baidu.com/course/all
 
 - [x] 定位和居中问题 demo:[Task04](http://ife.igeek.wang/html&css/task04/)
 
-- [ ] 零基础HTML及CSS编码（二）demo:[Task05](http://ife.igeek.wang/html&css/task05/)
+- [x] 零基础HTML及CSS编码（二）demo:[Task05](http://ife.igeek.wang/html&css/task05/)
 
-- [ ] 通过HTML及CSS模拟报纸排版
+- [x] 通过HTML及CSS模拟报纸排版 demo:[Task06](http://ife.igeek.wang/html&css/task06/)
 
-- [ ] 实现常见的技术产品官网的页面架构及样式布局
+- [ ] 实现常见的技术产品官网的页面架构及样式布局 demo:[Task07](http://ife.igeek.wang/html&css/task07/)
+
 
 - [ ] 响应式网格（栅格化）布局
 
