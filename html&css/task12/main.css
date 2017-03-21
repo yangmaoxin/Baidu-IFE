@@ -1,0 +1,139 @@
+html {
+	font-family: sans-serif;
+}
+
+html,
+body,
+div,
+ul,
+li,
+input,
+span {
+	padding: 0;
+	margin: 0;
+	border: none;
+	box-sizing: border-box;
+}
+
+section {
+	margin-bottom: 40px;
+}
+
+li {
+	list-style-type: none;
+}
+
+.table table,
+.table th,
+.table td {
+	border: 1px solid #fff;
+	border-collapse: collapse;
+}
+
+.table th {
+	background-color: #000;
+	color: #fff;
+}
+
+.table tr:nth-child(-n + 4) {
+	color: red;
+}
+
+.table tr:nth-child(odd) {
+	background-color: #bdbdbd;
+}
+
+.table tr:nth-child(even) {
+	background-color: #e7e7e7;
+}
+
+#scalable-input {
+	width: 70px;
+	height: 30px;
+	margin-left: 50px;
+	font-size: 24px;
+	line-height: 30px;
+	border: 1px solid #e7e7e7;
+	transition: all .5s;
+}
+
+#scalable-input:focus {
+	margin-left: 35px;
+	width: 100px;
+}
+
+#carousel {
+	position: relative;
+	width: 300px;
+	height: 200px;
+	overflow-x: hidden;
+}
+
+.content1,
+.content2,
+.content3 {
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	transition: all .3s;
+}
+
+.content1 {
+	background-color: green;
+	z-index: 1;
+}
+
+.content2 {
+	background-color: red;
+	z-index: 19;
+	left: 300px;
+}
+
+.content3 {
+	background-color: blue;
+	z-index: 19;
+	left: 600px;
+}
+
+.index {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	overflow: hidden;
+}
+
+.min-size {
+	float: left;
+	opacity: 0;
+}
+
+.index label {
+	display: inline-block;
+	position: relative;
+	z-index: 19;
+	color: #fff;
+	float: left;
+	width: 21px;
+	height: 26px;
+	padding: 4px 6px;
+	background-color: rgba(255, 255, 255, 0.5);
+	margin-left: 1px;
+	cursor: pointer;
+}
+
+#index2:checked~* .content2 {
+	left: 0;
+	z-index: 9;
+}
+
+#index2:checked~* .content3 {
+	left: 300px;
+}
+
+#index3:checked~* .content2 {
+	left: -300px;
+}
+
+#index3:checked~* .content3 {
+	left: 0;
+}

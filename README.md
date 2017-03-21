@@ -19,10 +19,10 @@ http://ife.baidu.com/course/all
 
 - [x] 通过HTML及CSS模拟报纸排版 demo:[Task06](http://ife.igeek.wang/html&css/task06/)
 
-- [ ] 实现常见的技术产品官网的页面架构及样式布局 demo:[Task07](http://ife.igeek.wang/html&css/task07/)
+- [x] 实现常见的技术产品官网的页面架构及样式布局 demo:[Task07](http://ife.igeek.wang/html&css/task07/)
 
 
-- [ ] 响应式网格（栅格化）布局
+- [x] 响应式网格（栅格化）布局 demo:[Task08](http://ife.igeek.wang/html&css/task08/)
 
 - [ ] 使用HTML/CSS实现一个复杂页面
 
@@ -30,4 +30,4 @@ http://ife.baidu.com/course/all
 
 - [ ] 移动Web页面布局实践
 
-- [ ] 学习CSS 3的新特性
+- [x] 学习CSS 3的新特性 demo:[Task12](http://ife.igeek.wang/html&css/task12/)
