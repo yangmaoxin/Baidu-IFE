@@ -1,0 +1,24 @@
+---
+layout: post
+title: 任务十二：学习CSS 3的新特性
+category: html&css
+---
+
+## Lesson
+
+* [任务十二：学习CSS 3的新特性](http://ife.baidu.com/course/detail/id/117)
+
+## References
+
+* [《图解CSS3》](https://book.douban.com/subject/25920727/)
+* [W3School CSS3 教程](http://www.w3school.com.cn/css3/index.asp)
+* [MDN CSS 3](https://developer.mozilla.org/zh-CN/docs/Web/CSS/CSS3)
+
+## Task
+
+* [HTML & CSS preview](http://iymx.coding.me/ife/html/task08/index.html)
+* [HTML & CSS source code](https://github.com/yangmaoxin/ife/blob/master/codes/html%26css/task08/index.html)
+
+## Demo
+<p data-height="265" data-theme-id="dark" data-slug-hash="QpQoxv" data-default-tab="result" data-user="ymx" data-embed-version="2" data-pen-title="css3" class="codepen">See the Pen <a href="https://codepen.io/ymx/pen/QpQoxv/">css3</a> by y1m7x (<a href="http://codepen.io/ymx">@ymx</a>) on <a href="http://codepen.io">CodePen</a>.</p>
+<script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
