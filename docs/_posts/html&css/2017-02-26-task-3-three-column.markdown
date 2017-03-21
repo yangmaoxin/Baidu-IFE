@@ -19,7 +19,7 @@ category: html&css
 ## Task
 
 * [Three Columns preview](http://iymx.coding.me/ife/html/task03/index.html)
-* [Three Columns source code](https://github.com/discountry/my-baidu-ife/blob/master/codes/html&css/3-three-columns.html)
+* [Three Columns source code](https://github.com/yangmaoxin/ife/blob/master/codes/html%26css/task03/index.html)
 
 **html**
 

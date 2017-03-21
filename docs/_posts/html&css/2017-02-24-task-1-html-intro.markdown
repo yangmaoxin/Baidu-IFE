@@ -21,7 +21,7 @@ category: html&css
 ## Task
 
 * [HTML Tags preview](http://iymx.coding.me/ife/html/task01/index.html)
-* [HTML Tags source code](https://github.com/discountry/my-baidu-ife/blob/master/codes/html&css/1-html-tags.html)
+* [HTML Tags source code](https://github.com/yangmaoxin/ife/blob/master/codes/html%26css/task07/index.html)
 
 **html**
 

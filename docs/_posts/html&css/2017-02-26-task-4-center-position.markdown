@@ -17,7 +17,7 @@ category: html&css
 ## Task
 
 * [Center position preview](http://iymx.coding.me/ife/html/task04/index.html)
-* [Center position source code](https://github.com/discountry/my-baidu-ife/blob/master/codes/html&css/4-center-position.html)
+* [Center position source code](https://github.com/yangmaoxin/ife/blob/master/codes/html%26css/task04/index.html)
 
 **html**
 

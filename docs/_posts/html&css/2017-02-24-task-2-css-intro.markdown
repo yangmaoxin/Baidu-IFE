@@ -16,7 +16,7 @@ category: html&css
 ## Task
 
 * [HTML & CSS preview](http://iymx.coding.me/ife/html/task02/index.html)
-* [HTML & CSS source code](https://github.com/discountry/my-baidu-ife/blob/master/codes/html&css/2-html-css.html)
+* [HTML & CSS source code](https://github.com/yangmaoxin/ife/blob/master/codes/html%26css/task02/index.html)
 
 **html**
 
