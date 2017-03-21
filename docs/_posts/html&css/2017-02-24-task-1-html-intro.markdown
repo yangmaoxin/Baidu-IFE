@@ -26,152 +26,159 @@ category: html&css
 **html**
 
 ```html
-<H1>This is h1 title</H1>
-<h2>This is h2 title</h2>
-<h3>This is h3 title</h3>
-<h4>This is h4</h4>
-<h5>This is h5</h5>
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis, repellat earum similique sunt, facilis eos, neque vitae aut magnam, eius saepe culpa aliquid iure soluta expedita amet incidunt tempora! Quasi.</p>
-
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. At <a href="">perspiciatis</a> eveniet, doloribus odit hic magni <b>excepturi</b> harum nam sint error quos <strong>reprehenderit</strong> tempora! Maxime, quod, consequuntur. <i>Minus eius et aliquid!</i></p>
-
-<p>Lorem <small>ipsum dolor sit amet</small>, consectetur adipisicing elit. Quia, similique. Esse dolor placeat <em>quisquam ut temporibus voluptatum</em>, doloribus expedita, saepe provident architecto iusto beatae obcaecati modi cum excepturi. <abbr title="attribute">Est, esse.</abbr></p>
-<!--address-->
-<address>
-    You can contact author at <a href="http://www.somedomain.com/contact">www.somedomain.com</a>.<br>
-    If you see any bugs, please <a href="mailto:webmaster@somedomain.com">contact webmaster</a>.<br>
-    You may also want to visit us:<br>
-    Mozilla Foundation<br>
-    1981 Landings Drive<br>
-    Building K<br>
-    Mountain View, CA 94043-0801<br>
-    USA
-  </address>
-<!--area-->
-<map name="primary">
-  <area shape="circle" coords="75,75,75" onclick="alert('left')">
-  <area shape="circle" coords="275,75,75" onclick="alert('right')">
-</map>
-<img usemap="#primary" src="http://placehold.it/350x150" alt="350 x 150 pic">
-<!--article-->
-<article class="film_review">
+ <!--标题导航区域-->
   <header>
-    <h2>Jurassic Park</h2>
+        <nav>
+      <h1>网站一级标题</h1>
+      <ul>
+        <li><a href="#">导航链接一</a></li>
+        <li><a href="#">导航链接二</a></li>
+        <li><a href="#">导航链接三</a></li>
+        <li><a href="#">导航链接四</a></li>    
+      </ul>
+    </nav>
   </header>
-  <section class="main_review">
-    <p>Dinos were great!</p>
+  <main>
+    <article>
+      <h2>文章一级标题</h2>
+      <h2>文章二级标题</h2>
+      <p>文章作者 文章发表时间</p>
+      <p>这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，<br/>换行了<br/>这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，换行了<br/>这是一个很长很长的段落，这是一个很长很长的段落，<a href = "http://ife.baidu.com">这里有个链接链接到http://ife.baidu.com</a>这是一个很长很长的段落，<strong>这里有个粗体字</strong>这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落。</p>
+      <img src="task.png">
+      <p>这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，<br/>换行了<br/>这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，换行了<br/>这是一个很长很长的段落，这是一个很长很长的段落，<a href = "http://ife.baidu.com" target="_blank">这里有个链接点击后打开新窗口链接到http://ife.baidu.com</a>这是一个很长很长的段落，<strong>这里有个粗体字</strong>这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落。</p>
+    </article>
+    <article>
+      <h2>另一篇文章一级标题</h2>
+      <h2>文章二级标题</h2>
+      <p>文章作者 文章发表时间</p>
+      <p>这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，<br/>换行了<br/>这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，换行了<br/>这是一个很长很长的段落，这是一个很长很长的段落，<a href = "http://ife.baidu.com">这里有个链接链接到http://ife.baidu.com</a>这是一个很长很长的段落，<strong>这里有个粗体字</strong>这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落。</p>
+      <img src="task.png">
+      <ul>
+        <li>列表项目一</li>
+        <li>列表项目二</li>
+        <li>列表项目三</li>
+      </ul>
+    </article>
+
+
+      <article>
+    <h2>图片</h2>
+    <figure>
+        <figcaption>好看的图片</figcaption>
+        <img src="task.png">
+    </figure>
+    <figure>
+        <figcaption>好看的图片</figcaption>
+        <img src="task.png">
+    </figure>
+    <figure>
+        <figcaption>好看的图片</figcaption>
+        <img src="task.png">
+    </figure>
+    <figure>
+        <figcaption>好看的图片</figcaption>
+        <img src="task.png">
+    </figure>
+    <figure>
+        <figcaption>好看的图片</figcaption>
+        <img src="task.png">
+    </figure>
+    <figure>
+        <figcaption>好看的图片</figcaption>
+        <img src="task.png">
+    </figure>
+    <figure>
+        <figcaption>好看的图片</figcaption>
+        <img src="task.png">
+    </figure>
+    <figure>
+        <figcaption>好看的图片</figcaption>
+        <img src="task.png">
+    </figure>
+    
+    </article>
+
+ <!--表单-->
+      <article>
+    <h2>最后一篇文章一级标题</h2>
+    <h2>文章二级标题</h2>
+    <p>文章作者 文章发表时间</p>
+    <ol>
+      <li>排名1</li>
+      <li>排名2</li>
+      <li>排名3</li>
+    </ol>
+    <p>下面是一个表格，给表格加了一个border="1"好让你看出是一个表格</p>
+    <table border="1">
+      <tr>
+        <th>表头</th>
+        <th>表头</th>
+        <th>表头</th>
+      </tr>
+      <tr>
+        <td>表内容单元格</td>
+        <td>表内容单元格</td>
+        <td><a href="#">操作</a></td>
+      </tr>
+
+      <tr>
+        <td>表内容单元格</td>
+        <td>表内容单元格</td>
+        <td><a href="#">操作</a></td>
+      </tr>
+
+      <tr>
+        <td>表内容单元格</td>
+        <td>表内容单元格</td>
+        <td><a href="#">操作</a></td>
+      </tr>
+
+      <tr>
+        <td>表内容单元格</td>
+        <td>表内容单元格</td>
+        <td><a href="#">操作</a></td>
+      </tr>
+
+      <tr>
+        <td>总计</td>
+        <td colspan="2">1000</td>
+      </tr>
+    </table>
     <aside>
-      <p>
-        The movie earned $87 million during its initial release.
-      </p>
+    <h2>这里以后是一个侧栏，这是侧栏的标题</h2>
+    <h2>侧栏注册窗口标题</h2>
+    <form>
+    <p><span>请输入邮箱地址：</span><input type="text" placeholder="这是一个文本输入框"></p>
+    <p>邮箱地址请按要求格式输入</p>
+    <p><span>请输入密码：</span><input type="password" placeholder="这是一个文本输入框"><span>请重复输入密码：</span><input type="password" placeholder="这是一个文本输入框"></p>
+    <p>密码请为6-16位英文数字</p>
+
+    <label>性别：</label>
+    <input type="radio" name="sex" value="male" id="male" checked><label for="male">男</label> 
+    <input type="radio" name="sex" value="female" id="female"><label for="female">女</label> 
+    <label>城市：</label>
+    <select name="city">   
+          <option value="1">北京</option>   
+          <option value="2">武汉</option>   
+          <option value="3">长沙</option>   
+          <option value="4">汕头</option>   
+          <option value="5">广州</option>      
+      </select>  
+
+    <label>爱好</label>
+        <label><input type="checkbox" name="hobby" value="sport">运动</label>
+        <label><input type="checkbox" name="hobby" value="art">艺术</label>
+        <label><input type="checkbox" name="hobby" value="science">科学</label>
+
+      <label>个人描述：</label>
+      <textarea>这是一个多行输入框，输入您的个人描述</textarea>
+      <input type="submit" value="确认提交">
+    </form>
     </aside>
-  </section>
-  <article class="user_review">
-    <p>I agree, dinos are my favorite.</p>
-    <footer>
-      <p>
-        Posted on
-        <time datetime="2015-05-17 19:00">May 17</time> by Tom.
-      </p>
-    </footer>
-  </article>
-  </section>
-  <footer>
-    <p>
-      Posted on
-      <time datetime="2015-05-15 19:00">May 15</time> by Staff.
-    </p>
-  </footer>
-</article>
+    </article>
+  </main>
 
-<!-- Simple audio playback -->
-<audio src="http://developer.mozilla.org/@api/deki/files/2926/=AudioTest_(1).ogg" controls="controls">
-  Your browser does not support the <code>audio</code> element.
-</audio>
-
-<base target="_blank" href="http://www.example.com/page.html">
-
-<p dir="ltr">This arabic word <bdi>ARABIC_PLACEHOLDER</bdi> is automatically displayed right-to-left.</p>
-
-<p>This text will go left to right.</p>
-<p><bdo dir="rtl">This text will go right
-to left.</bdo></p>
-
-<blockquote cite="http://developer.mozilla.org">
-  <p>This is a quotation taken from the Mozilla Developer Center.</p>
-</blockquote>
-
-<button name="button">Click me</button>
-
-<br />
-
-<canvas id="canvas" width="300" height="300">
-  An alternative text describing what your canvas displays. 
-</canvas>
-
-<p>More information can be found in <cite>[ISO-0000]</cite>.</p>
-
-<p>This is how we declare a Javascript variable:
-  <br/>
-    <code>var i = 0;</code>
-</p>
-
-<p>Table with colgroup and col</p>
-<table>
-  <caption>Awesome caption</caption>
-  <colgroup>
-    <col style="background-color: #0f0">
-    <col span="1">
-    <col style="background-color: red">
-  </colgroup>
-  <tr>
-    <th>Lime</th>
-    <th>Lemon</th>
-    <th>Orange</th>
-  </tr>
-  <tr>
-    <td>Green</td>
-    <td>Yellow</td>
-    <td>Orange</td>
-  </tr>
-</table>
-
-<nav>
-  <ul>
-    <li><a href="">First Link</a></li>
-    <li><a href="">Second Link</a></li>
-    <li>Third Link</li>
-    <li>Fourth Link</li>
-  </ul>
-</nav>
-
-<p>A common form that includes input tags</p>
-<form action="getform.php" method="get">
-  <label>First name: <input type="text"></label><br>
-  <label>Last name: <input type="text"></label><br>
-  <label>E-mail: <input type="email"></label><br>
-  <input type="submit" value="Submit">
-</form>
-
-<p>Type the following in the Run dialog:
-  <kbd>cmd</kbd><br />Then click the OK button.</p>
-
-<!-- Form with fieldset, legend, and label -->
-<form action="" method="post">
-  <fieldset>
-    <legend>Title</legend>
-    <input type="radio" id="radio">
-    <label for="radio">Click me</label>
-  </fieldset>
-</form>
-
-<p>你<em>开始</em>学习HTML了.</p>
-
-<article>
-  <h3>This is a title.</h3>
-</article>
-
-<img src="https://ss0.bdstatic.com/5aV1bjqh_Q23odCf/static/superman/img/logo/bd_logo1_31bdc765.png" alt="" />
+    <footer>版权所有©</footer>
 ```
 
 ## Note
