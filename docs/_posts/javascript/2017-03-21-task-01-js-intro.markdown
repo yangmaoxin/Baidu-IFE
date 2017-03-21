@@ -15,7 +15,7 @@ category: javascript
 
 ## Task
 
-* [HTML & CSS preview](http://iymx.coding.me/ife/javascript/task01/index.html)
+* [HTML & CSS preview](http://iymx.coding.me/ife/javascript/task01.html)
 * [HTML & CSS source code](https://github.com/yangmaoxin/ife/blob/master/codes/javascript/task01.html)
 
 **html**
@@ -67,7 +67,7 @@ category: javascript
 
 ## Note
 用`$(id)`代替`document.getElementById(id)`
-```
+```javascript
 var $ = function (id) {
 return document.getElementById(id);
 }
