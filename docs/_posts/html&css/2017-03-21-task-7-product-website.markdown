@@ -16,7 +16,7 @@ category: html&css
 
 ## Task
 
-* [HTML & CSS preview](https://codepen.io/discountry/pen/OpPGXM?editors=1100)
+* [HTML & CSS preview](http://iymx.coding.me/ife/html/task07/index.html)
 * [HTML & CSS source code](https://github.com/yangmaoxin/ife/blob/master/codes/html%26css/task07/index.html)
 
 ## Note
