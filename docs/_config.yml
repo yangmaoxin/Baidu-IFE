@@ -1,9 +1,9 @@
 title: yangmaoxin's 2017 Baidu IFE
-url: https://ife.igeek.wang
-enforce_ssl: ife.igeek.wang
+url: https://ife.yangmaoxin.cn
+enforce_ssl: ife.yangmaoxin.cn
 
 show_downloads: true
-#google_analytics: UA-45453476-5
+google_analytics: UA-94111210-1
 
 theme: jekyll-theme-leap-day
 
