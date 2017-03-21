@@ -19,7 +19,7 @@ category: javascript
 * [HTML & CSS source code](https://github.com/yangmaoxin/ife/blob/master/codes/javascript/task01.html)
 
 **html**
-```
+```html
 <label>请输入北京今天空气质量：<input id="aqi-input" type="text"></label>
 <button id="button">确认填写</button>
 
@@ -27,7 +27,7 @@ category: javascript
 ```
 
 **javascript**
-```
+```javascript
 <script type="text/javascript">
 (function() {
   /*  
