@@ -16,14 +16,9 @@ category: html&css
 * [清除浮动（clearfix hack）](http://zh.learnlayout.com/clearfix.html)
 * [StackOverflow：Which method of ‘clearfix’ is best?](http://stackoverflow.com/questions/211383/which-method-of-clearfix-is-best)
 
-## Demo
-
-* [Three Columns using Flex](http://codepen.io/discountry/pen/MpYLLg)
-* [Three Columns using Grid](https://codepen.io/discountry/pen/VpYRYy)
-
 ## Task
 
-* [Three Columns preview](http://codepen.io/discountry/pen/zZxeYQ?editors=1100)
+* [Three Columns preview](http://iymx.coding.me/ife/html/task03/index.html)
 * [Three Columns source code](https://github.com/discountry/my-baidu-ife/blob/master/codes/html&css/3-three-columns.html)
 
 **html**

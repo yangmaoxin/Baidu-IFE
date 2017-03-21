@@ -14,7 +14,7 @@ category: html&css
 
 ## Task
 
-* [HTML & CSS preview](https://codepen.io/discountry/pen/OpPGXM?editors=1100)
+* [HTML & CSS preview](http://iymx.coding.me/ife/html/task05/index.html)
 * [HTML & CSS source code](https://github.com/discountry/my-baidu-ife/blob/master/codes/html&css/5-html-css-intermediate.html)
 
 **html**
