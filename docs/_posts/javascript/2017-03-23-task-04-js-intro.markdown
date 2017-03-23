@@ -118,4 +118,48 @@ category: javascript
 <script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
 
 ## Note
+**js中的事件委托**
+`事件委托(event delegation)`应该也是JS中比较火的一项技术.使用`事件委托技术`能避免对特定的每个节点添加事件监听,相反,事件监听器是被添加在他们的父元素上.
 
+事件委托也称事件代理,不是自身元素触发的事件而是利用其他元素来触发事件实现效果.利用冒泡来实现.
+
+**代码解析**
+
+```html
+<ul id="ul1">
+    <li>11111</li>
+    <li>11111</li>
+    <li>11111</li>
+    <li>11111</li>
+    <li>11111</li>
+</ul>
+```
+
+一般情况下,我们为`li`绑定`onclick`事件,如下:
+
+```javascript
+var oUl = document.getElementById('ul1');
+var aLi = document.getElementsByTagName('li');
+for(var i=0;i<aLi.length;i++){
+    aLi[i].onclick = function(){
+        this.style.background = 'red';
+    };
+```
+
+但是这种情况有个不好处,就是当我们向`ul`中动态添加`li`节点时,添加后的`li`是没有`onclick`事件的,,这是非常糟糕的事情.
+
+事件委托写法
+
+```javascript
+var oUl = document.getElementById('ul1');
+oUl.onclick = function(ev){
+    var ev = ev || window.event;
+    var target = ev.target || ev.srcElement; // 事件源
+    if(target.nodeName.toLowerCase() == 'li' ){
+        target.style.background = 'red';
+    }
+};
+
+```
+使用事件委托这种写法,有效的解决了上面那种写法产生的问题.
+总的来说，使用事件委托可以提高性能(事件委托中并没有使用循环)，后续添加的节点可以直接拥有事件行为。
